@@ -53,6 +53,158 @@
             color: grey;
             text-align: center;
         }
+        
+        .amazing-reviews {
+            font-size: 12pt;
+            padding: 10px 40px;
+        }
+        
+        .amazing-reviews blockquote {
+            font-family: Myriad, Helvetica, 'Lucida Grande', 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, Arial, sans-serif;
+            padding: 0;
+            background: white;
+            margin: 30px 0 0 0;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            padding: 15px 15px 10px 15px;
+            position: relative;
+            box-shadow: rgba(0, 0, 0, .025) 0 3px 20px;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            -o-user-select: none;
+            user-select: none;
+            cursor: default;
+        }
+        
+        .amazing-reviews blockquote:before {
+            content: '';
+            display: block;
+            border: 20px solid transparent;
+            border-top-color: #ccc;
+            position: absolute;
+            top: 100%;
+            left: 20px;
+            z-index: 250;
+            background: transparent;
+            height: 0;
+            opacity: 1;
+        }
+        
+        .amazing-reviews blockquote:nth-of-type(even):before {
+            left: auto;
+            right: 20px;
+        }
+        
+        .amazing-reviews blockquote:after {
+            content: '';
+            display: block;
+            border: 19px solid transparent;
+            border-top-color: white;
+            position: absolute;
+            top: 100%;
+            left: 21px;
+            z-index: 500;
+        }
+        
+        .amazing-reviews blockquote:nth-of-type(even):after {
+            left: auto;
+            right: 21px;
+        }
+        
+        .amazing-reviews blockquote:last-of-type {
+            margin-bottom: 45px;
+        }
+        
+        .amazing-reviews blockquote header span i {
+            color: white;
+            text-shadow: #aaa 1px 0 0, #aaa 0 1px 0, #aaa -1px 0 0, #aaa 0 -1px 0;
+        }
+        
+        .amazing-reviews blockquote header span[data-rating="1"] i:nth-child(-n+1),
+        .amazing-reviews blockquote header span[data-rating="2"] i:nth-child(-n+2),
+        .amazing-reviews blockquote header span[data-rating="3"] i:nth-child(-n+3),
+        .amazing-reviews blockquote header span[data-rating="4"] i:nth-child(-n+4),
+        .amazing-reviews blockquote header span[data-rating="5"] i:nth-child(-n+5) {
+            color: #f0c96a;
+            text-shadow: #c08036 1px 0 0, #c08036 0 1px 0, #c08036 -1px 0 0, #c08036 0 -1px 0;
+        }
+        
+        .amazing-reviews blockquote strong {
+            color: black;
+            display: inline;
+        }
+        
+        .amazing-reviews strong+span {
+            margin-left: -3px;
+        }
+        
+        .amazing-reviews blockquote strong+span+span {
+            display: block;
+            margin: 5px 0;
+        }
+        
+        .amazing-reviews blockquote span em {
+            font-style: normal;
+            font-weight: bold;
+            color: #155096;
+            text-decoration: underline;
+        }
+        
+        .amazing-reviews blockquote span:last-of-type {
+            color: #e47d21;
+            font-size: 10pt;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .amazing-reviews blockquote p {
+            font-size: 12pt;
+            font-style: normal;
+            margin: 5px 0 0 0;
+            color: black;
+        }
+        
+        .amazing-reviews h2:last-of-type {
+            background: #eee;
+            text-align: center;
+            font-weight: 400;
+            padding: 15px;
+            margin: 0;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        
+        .amazing-reviews h2 q,
+        .amazing-reviews h2 strong {
+            font-weight: 600;
+        }
+        
+        @media (min-width: 400px) {
+            .amazing-reviews h2:last-of-type {
+                font-size: 24pt;
+            }
+        }
+        
+        @media (min-width: 700px) {
+            .amazing-reviews blockquote {
+                width: 75%;
+                margin: 30px 15px 0 15px;
+            }
+            .amazing-reviews blockquote:nth-of-type(even) {
+                margin-left: calc(25% - 15px);
+            }
+            .amazing-reviews h2:last-of-type {
+                font-size: 28pt;
+            }
+        }
+        
+        @media (min-width: 700px) {
+            .amazing-reviews .quote-container {
+                width: 100%;
+                padding: 0 75px;
+            }
+        }
     </style>
 </head>
 
@@ -73,6 +225,128 @@
             </div>
         </div>
 
+    </div>
+    <br>
+    <div class="img">
+        <br>
+        <center>
+            <h1> REVIEWS </h1>
+        </center>
+
+        <div class="amazing-reviews">
+            <div class=amazing-reviews>
+                <blockquote>
+                    <header>
+                        <span data-rating=5>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                    </span>
+                        <strong>NICE WEBSITE</strong>
+                        <span>, May 8</span>
+                        <span>By <em>HABIB</em></span>
+                        <span>Verified Purchase</span>
+                    </header>
+                    <p>I bought 70+ skins for so sell and got , galaxy , skull tooper , black knight , and many more thanks.</p>
+                </blockquote>
+                <blockquote>
+                    <header>
+                        <span data-rating=5>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                    </span>
+                        <strong>I GOT RENEGADE RIDER OMG!!!</strong>
+                        <span>, May 6</span>
+                        <span>By <em>Theo</em></span>
+                        <span>Verified Purchase</span>
+                    </header>
+                    <p>I bought the 100+ skins i got renegade rider in that account the deliver has so fast and i have 180 skins in my accoount.</p>
+                </blockquote>
+                <blockquote>
+                    <header>
+                        <span data-rating=5>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                    </span>
+                        <strong>The Fastest Delivery</strong>
+                        <span>, May 5</span>
+                        <span>By <em>Jeff Thomas</em></span>
+                        <span>Verified Purchase</span>
+                    </header>
+                    <p>i Bought 10+ Skins And Got 20Skins in it SO cheap.</p>
+                </blockquote>
+                <blockquote>
+                    <header>
+                        <span data-rating=5>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                    </span>
+                        <strong>This Site Is Best</strong>
+                        <span>, April 28</span>
+                        <span>By <em>Linda</em></span>
+                        <span></span>
+                    </header>
+                    <p>i Bought A skin For My Brother He said Its To Good , Idk Want OG Means.</p>
+                </blockquote>
+                <blockquote>
+                    <header>
+                        <span data-rating=4>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                    </span>
+                        <strong>So Good</strong>
+                        <span>, April 13</span>
+                        <span>By <em>Michael</em> (California, USA)</span>
+                        <span>Verified Purchase</span>
+                    </header>
+                </blockquote>
+                <blockquote>
+                    <header>
+                        <span data-rating=4>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                    </span>
+                        <strong>OMG I GOT 10 OG</strong>
+                        <span>, April 10 </span>
+                        <span>By <em>Paul</em> (Perth, Ontario)</span>
+                        <span>Verified Purchase</span>
+                    </header>
+                    <p>The best Site Ever.</p>
+                </blockquote>
+                <blockquote>
+                    <header>
+                        <span data-rating=5>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                      <i class=ion-star></i>
+                    </span>
+                        <strong>Nice Website :)</strong>
+                        <span>, April 9</span>
+                        <span>By <em>FastestCowboy</em></span>
+                        <span>Verified Purchase</span>
+                    </header>
+                </blockquote>
+            </div>
+        </div>
     </div>
     <BR>
     <div class="img">
