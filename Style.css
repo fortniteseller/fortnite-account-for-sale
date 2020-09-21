@@ -20,8 +20,8 @@ section {
     --Patua: "Patua One", cursive;
     --Lobster: "lobster", cursive;
     --light-black: #2e2c2caf;
-    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
-    --light-gray: rgba(255, 255, 255, 0.877);
+    --bggradient: linear-gradient(to bottom, #248add, #2f82ff);
+    --light-gray: rgba(0, 0, 0, 0.877);
 }
 
 header a {
@@ -33,7 +33,7 @@ header a {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #000000;
     min-width: 160px;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -47,7 +47,7 @@ header a {
 }
 
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: rgb(41, 41, 41);
 }
 
 .dropdown:hover .dropdown-content {
@@ -135,7 +135,7 @@ header .container .col-md-7 p {
     position: absolute;
     top: 7vmin;
     left: -18vmin;
-    background: white;
+    background: rgb(54, 54, 54);
     border-radius: 3px;
     text-align: left;
     padding: 13vmin 5vmin 20vmin 10vmin;
@@ -161,7 +161,7 @@ header .container .col-md-7 p {
 .cover {
     width: 100%;
     height: 55vmin;
-    background: url("pexels-photo-452738.gif");
+    background: url("https://dynamicmedia.zuza.com/zz/m/original_/e/1/e1f42e9c-bbd8-40ec-811f-3e30799a5c80/giftcards___Super_Portrait.jpg");
     background-position: -24rem -19rem;
     background-size: 150%;
     position: relative;
@@ -204,7 +204,7 @@ header .container .col-md-7 p {
     padding-top: 3.5vmin;
     margin: 1rem;
     border-radius: 0.5em;
-    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+    box-shadow: 1px 2px 50px 0px rgba(0, 204, 255, 0.349);
 }
 
 .numbers {
@@ -213,7 +213,7 @@ header .container .col-md-7 p {
 
 .numbers .rect h1 {
     font-size: 5rem;
-    color: tomato;
+    color: rgb(35, 130, 255);
 }
 
 .numbers .rect>p {
